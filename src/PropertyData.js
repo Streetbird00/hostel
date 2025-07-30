@@ -22,9 +22,16 @@ export const properties = [
     },
     {
       id: 4,
-      title: 'DREAM WORLD HOSTEL',
+      title: 'Dream World Hostel',
       location: 'Kampala, Makerere',
       price: 'USD $380 per -3month',
       image: 'https://campusbee.ug/wp-content/uploads/2023/08/mak-hostel.jpg',
+    },
+    {
+      id: 4,
+      title: 'Ideal Platinum Hostel',
+      location: 'Kampala, Uganda',
+      price: 'USD $600 per -3month',
+      image: 'https://hostels.campusbee.ug/wp-content/uploads/2022/02/IMG-20220201-WA0026-8a325da3.jpg',
     },
   ];
