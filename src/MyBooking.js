@@ -15,7 +15,8 @@ const MyBooking = () => {
 
     useEffect(()=>{
         fetchMyBookings()
-    },[])
+    },
+  )
 
 
     const fetchMyBookings = async () => {
@@ -42,7 +43,7 @@ const MyBooking = () => {
       
   return (
     <div className="page-wrapper">
-      <h1 className="page-title">My Bookings</h1>
+      <h1 className="page-title">MY BOOKINGS</h1>
       <div className="bookings-list">
         {bookings.map((booking) => (
           <div key={booking.id} className="mybooking-card">

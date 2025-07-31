@@ -8,21 +8,51 @@ const Carousel = () => {
     const slides = [
         {
           id: 1,
-          image: 'https://images.unsplash.com/photo-1572120360610-d971b9d7767c?auto=format&fit=crop&w=1600&q=80',
-          title: 'Luxury Villa in Los Angeles',
-          subtitle: '$4,200/month - 5 Bed, 4 Bath',
+          image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw47qaoiitEvAj0Xpp9c5C1gMlbE502_-Zpg&s',
+          title: 'Braetd Girls Hostel',
+          subtitle: 'USD $200 per-3month - 5 Bed, 4 Bath',
         },
         {
           id: 6,
           image: 'https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
-          title: 'Modern Beachfront Villa',
-          subtitle: '$5,000/month – Ocean View & Infinity Pool',
+          title: 'Aryan Hostel',
+          subtitle: 'USD $500 per-3month – Kampala Wandegeya',
         },
         {
           id: 3,
           image: 'https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=1600&q=80',
-          title: 'Modern Apartment in New York',
-          subtitle: '$2,200/month - Central Park View',
+          title: 'Olympia Hostel',
+          subtitle: 'USD $450 per-3month - Makerere',
+        },
+        {
+          id: 3,
+          image: 'https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=1600&q=80',
+          title: 'Dream World Hostel',
+          subtitle: 'USD $380 per-3month - Makerere',
+        },
+        {
+          id: 3,
+          image: 'https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=1600&q=80',
+          title: 'Ideal Platinum Hostel',
+          subtitle: 'USD $600 per-3month - Kampala',
+        },
+        {
+          id: 3,
+          image: 'https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=1600&q=80',
+          title: 'Kampala Internation Hostel',
+          subtitle: 'USD $1,000 per-3month - Kampala',
+        },
+        {
+          id: 3,
+          image: 'https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=1600&q=80',
+          title: 'JB Paradise Hostel',
+          subtitle: 'USD $200 per-3month - Wandegeya',
+        },
+        {
+          id: 3,
+          image: 'https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=1600&q=80',
+          title: 'Islamic Hostel',
+          subtitle: 'USD $250 per-3month - Kibuli',
         },
       ];
       
@@ -31,7 +61,7 @@ const Carousel = () => {
           setCurrent((prev) => (prev + 1) % slides.length);
         }, 7000);
         return () => clearInterval(timer);
-      }, []);
+      }, );
     
       const prevSlide = () => {
         setCurrent((prev) => (prev - 1 + slides.length) % slides.length);

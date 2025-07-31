@@ -1,5 +1,5 @@
 .about-section {
-  background-color: #ffff;
+  background-color: #b3d1caff;
   padding: 60px;
 }
 
@@ -17,7 +17,7 @@
 }
 
 .about-text > h2 {
-  color: gray;
+  color: black;
   font-size: xx-large;
   margin-bottom: 10px;
 }
@@ -30,7 +30,7 @@
 
 .about-text > p {
   font-size: medium;
-  color: #495057;
+  color: #000000ff;
   line-height: 1.6;
 }
 

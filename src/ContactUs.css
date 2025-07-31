@@ -7,7 +7,7 @@
 }
 
 .contact-wrapper {
-  background: linear-gradient(135deg, #e8f5e9, #f9fbe7);
+  background: linear-gradient(135deg, #b3d1caff, #f3e294ff);
   padding: 80px 5vw;
   min-height: 100vh;
   display: flex;
@@ -16,7 +16,7 @@
 }
 
 .contact-card {
-  background-color: var(--card-bg);
+  background-color: #72948cff;
   border-radius: 20px;
   box-shadow: 0 16px 40px rgba(0, 0, 0, 0.1);
   max-width: 1000px;
@@ -33,22 +33,22 @@
 }
 
 .contact-left h2 {
-  font-size: 2.2rem;
-  color: var(--text);
+  font-size: 2.3rem;
+  color: #000000ff;
   margin-bottom: 10px;
 }
 
 .contact-left p {
-  font-size: 1rem;
-  color: var(--muted);
+  font-size: 1.22rem;
+  color: #000000ff;
   margin-bottom: 24px;
   line-height: 1.6;
 }
 
 .contact-info p {
-  font-size: 0.95rem;
+  font-size: 0.96rem;
   margin-bottom: 10px;
-  color: var(--text);
+  color: #000000ff;
 }
 
 .contact-form {

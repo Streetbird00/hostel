@@ -3,12 +3,12 @@
   justify-content: center;
   align-items: center;
   padding: 80px 5vw;
-  background-color: #f7f7f7f7;
+  background-color: #b3d1caff;
   min-height: 100vh;
 }
 
 .signup-card {
-  background-color: #fff;
+  background-color: #72948cff;
   padding: 40px 30px;
   border-radius: 15px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -20,11 +20,11 @@
 .signup-card > h2 {
   font-size: 25px;
   margin-bottom: 10px;
-  color: #999595;
+  color: #000000ff;
 }
 .signup-card > p {
   font-size: 16px;
-  color: rgb(26, 25, 25);
+  color: rgba(3, 3, 3, 1);
 }
 
 .signup-form {
@@ -53,7 +53,7 @@
 }
 
 .signup-footer a {
-  color: #999595;
+  color: #000000ff;
   text-decoration: none;
   font-weight: 600;
 }

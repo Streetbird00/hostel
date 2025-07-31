@@ -1,15 +1,16 @@
 :root {
   --primary: #2ca7bdff;
   --background: #ffffff;
-  --text: #333333;
+  --text: #050505ff;
   --muted: #999999;
 }
 
 .footer {
   background-color: var(--background);
-  color: var(--text);
+  color: #050505ff;
   padding: 40px 20px 20px;
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid #728f88ff;
+  background-color: #b3d1caff;
 }
 
 .footer-top {
@@ -26,12 +27,13 @@
   font-size: 1rem;
   color: var(--muted);
   margin-bottom: 20px;
+  color: #050505ff;
 }
 
 .footer-cta {
   background-color: var(--primary);
   border: none;
-  color: #000;
+  color: #050505ff;
   padding: 12px 24px;
   font-weight: bold;
   font-size: 1rem;
@@ -58,7 +60,7 @@
 }
 
 .footer-links h4 {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   margin-bottom: 10px;
 }
 
@@ -69,8 +71,8 @@
 
 .footer-links li {
   margin-bottom: 8px;
-  font-size: 0.95rem;
-  color: var(--muted);
+  font-size: 0.99rem;
+  color: #050505ff;
   cursor: pointer;
 }
 
@@ -82,7 +84,7 @@
   text-align: center;
   margin-top: 20px;
   font-size: 0.85rem;
-  color: var(--muted);
+  color: #050505ff;
 }
 
 /* Mobile responsiveness */

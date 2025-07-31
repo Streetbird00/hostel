@@ -10,7 +10,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Segoe UI", sans-serif;
-  background-color: var(--background);
+  background-color: #b3d1caff;
 }
 
 .page-wrapper {
@@ -20,7 +20,7 @@ body {
 }
 
 .page-title {
-  color: var(--text);
+  color: #000000ff;
   font-size: 2rem;
   margin-bottom: 1.5rem;
   text-align: center;
@@ -33,7 +33,7 @@ body {
 }
 
 .mybooking-card {
-  background-color: var(--card-bg);
+  background-color: #72948cff;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
@@ -61,13 +61,13 @@ body {
 
 .property-name {
   font-size: 1.2rem;
-  color: var(--text);
+  color: #000000ff;
   margin: 0;
 }
 
 .location {
   font-size: 0.9rem;
-  color: var(--muted);
+  color: #000000ff;
 }
 
 .dates {
@@ -75,12 +75,12 @@ body {
   justify-content: space-between;
   font-size: 0.9rem;
   margin: 0.5rem 0;
-  color: var(--text);
+  color: #000000ff;
 }
 
 .guests {
   font-size: 0.9rem;
-  color: var(--text);
+  color: #000000ff;
   margin-bottom: 0.5rem;
 }
 

@@ -9,12 +9,13 @@
   padding: 40px 20px;
   background: var(--bg);
   text-align: center;
+  background-color: #b3d1caff;
 }
 
 .top-properties h2 {
   font-size: 2.2rem;
   margin-bottom: 20px;
-  color: var(--text);
+  color: #050505ff;
 }
 
 .search {
@@ -34,6 +35,7 @@
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+  background-color: #b3d1caff;
 }
 
 .property-card {
@@ -62,22 +64,23 @@
   display: flex;
   flex-direction: column;
   flex-grow: 1;
+  color: #050505ff;
 }
 
 .property-details h3 {
   margin: 0 0 6px;
   font-size: 1.25rem;
-  color: var(--text);
+  color: #050505ff;
 }
 
 .property-details p {
-  color: var(--muted);
+  color: #050505ff;
   margin-bottom: 10px;
 }
 
 .property-details span {
   font-weight: bold;
-  color: var(--text);
+  color: #050505ff;
   margin-bottom: 12px;
 }
 
