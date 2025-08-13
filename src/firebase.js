@@ -4,19 +4,19 @@ import { getAuth,} from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDdgEdfuJRVReYSt_lhUZbVWh9oy9dsaUk",
+  apiKey: "AIzaSyCM1n9MaaEBSeqv6X07J1LKNR8epuKEZgw",
 
-  authDomain: "hostelapartments.firebaseapp.com",
+  authDomain: "hostel-apartments.firebaseapp.com",
 
-  projectId: "hostelapartments",
+  projectId: "hostel-apartments",
 
-  storageBucket: "hostelapartments.firebasestorage.app",
+  storageBucket: "hostel-apartments.firebasestorage.app",
 
-  messagingSenderId: "399372748635",
+  messagingSenderId: "666906742312",
 
-  appId: "1:399372748635:web:998e574cf0a7dfa259fc7e",
+  appId: "1:666906742312:web:a27c98128065b13f76af1d",
 
-  measurementId: "G-LHGMCWX5TB"
+  measurementId: "G-1D22J2E8W2"
 
 };
 
